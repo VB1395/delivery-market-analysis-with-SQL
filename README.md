@@ -1,6 +1,7 @@
 # Delivery Market Analysis 
 ## 🏢 Description
 
+![Image](/assets/fooddelivery.jpg)
 This project focuses on providing insights into the pricing and restauarnt distribution of food delivery apps operating in Belgium. Our team was tasked with analyzing databases provided by a consultant to uncover actionable insights that could benefit restaurant partners and consumers in the food delivery space. This analysis explores trends, customer preferences, and market dynamics within the Belgian food delivery industry.
 Tools Used for Analysis:
 - Sqlite: For querying and managing the data.
