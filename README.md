@@ -7,8 +7,11 @@
 📁 FOLDER STRUCTURE
 
 
+
 Repository: delivery-market-analysis-with-SQL
+
 Team: Anastasia, Tom, Veena, and Muntadher 
+
 Mission Accomplished
 Our team successfully completed the analysis of food delivery datasets for Uber Eats, Deliveroo, and Takeaway. This report outlines our methodology, findings, and the solutions delivered. All must-have questions have been answered with SQL queries and Python-based visualizations.
 
@@ -32,7 +35,7 @@ Deliveroo has the largest presence among top pizzerias, which is evidenced by hi
 4-Kapsalon Locations and Average Prices
 Brussels, Antwerp and Gent have most places where you can get ‘kapsalon’.
 Lowest prices for a ‘kapsalon’ in areas with most competition, such as large city centers.
-Average prices according to platform: TakeAway.com ($$$) > Uber Eats ($$) > Deliveroo ($)
+Average prices according to platform: TakeAway.com ($9-12) > Uber Eats ($8-11) > Deliveroo ($8-11)
 
 5-Restaurant Distribution Comparison
 Takeaway is providing highest number of active deals and also has the highest coverage in terms of restaurant distribution. 
