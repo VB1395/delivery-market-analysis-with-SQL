@@ -1,48 +1,59 @@
-# Delivery Market Analysis - Final Report
+# Delivery Market Analysis 
+## 🏢 Description
 
-✅ FEATURES
-👥 TEAM
-✨ AI ANALYSIS
-🛠️ INSTALLATION
-📁 FOLDER STRUCTURE
-
-
-
-Repository: delivery-market-analysis-with-SQL
-
-Team: Anastasia, Tom, Veena, and Muntadher 
-
-Mission Accomplished
-Our team successfully completed the analysis of food delivery datasets for Uber Eats, Deliveroo, and Takeaway. This report outlines our methodology, findings, and the solutions delivered. All must-have questions have been answered with SQL queries and Python-based visualizations.
-
-# Summary of Findings
-
-1-Price Distribution of Menu Items
-The 0-5€ price segment leads across all platforms, showcasing high demand for budget-friendly meals.
-Takeaway offers the widest variety, making it the go-to choice for low-cost options.
-
-Platforms can expand offerings in premium categories (10€+ range) to capture higher-value customers.
-
-2-Distribution of Restaurants per Location
-Wallonia part is almost dead in terms of coverage from all of three platforms. Which also bring opportunity to other food delivery platforms to setup their business.
-Highest distribution of restaurants lays around brussels and antwerp area then followed by gent and levuen area . There are small pockets near brugge and oostende as well. 
+This project focuses on providing insights into the pricing and restauarnt distribution of food delivery apps operating in Belgium. Our team was tasked with analyzing databases provided by a consultant to uncover actionable insights that could benefit restaurant partners and consumers in the food delivery space. This analysis explores trends, customer preferences, and market dynamics within the Belgian food delivery industry.
+Tools Used for Analysis:
+- Sqlite: For querying and managing the data.
+- Python: For data manipulation, analysis, and visualization.
 
 
-3-Top 10 Pizza Restaurants by Rating
-The best pizza restaurants are concentrated in major cities such as Ghent, Bruges and Brussels.
-Deliveroo has the largest presence among top pizzerias, which is evidenced by high ratings and customer satisfaction.
+## 📦 Repo structure
 
-4-Kapsalon Locations and Average Prices
-Brussels, Antwerp and Gent have most places where you can get ‘kapsalon’.
-Lowest prices for a ‘kapsalon’ in areas with most competition, such as large city centers.
-Average prices according to platform: TakeAway.com ($9-12) > Uber Eats ($8-11) > Deliveroo ($8-11)
+```
+├── Analysis/
+│   ├── main.ipynb
+│   └── queries.py
+├── assets/
+│   ├── geo/
+|   └── ppt/
+├── databases/
+│   |── deliveroo.db
+|   ├── takeaway.db
+|   └── ubereats.db
+├── requirements.txt
+└── README.md
 
-5-Restaurant Distribution Comparison
-Takeaway is providing highest number of active deals and also has the highest coverage in terms of restaurant distribution. 
-Deliveroo is provides almost same levels of deals across restaurants but the coverage is 25 % less than takeaway.
-Ubereat provides the list number of deals while the coverage is almost equivalent to Deliveroo.
+```
 
+## 🛎️ Usage
 
-✅
-# Conclusion
-Our analysis provided actionable insights for restaurant partners and consumers. We look forward to presenting these findings and collaborating on the next steps for the investor pitch. Let’s continue driving data-driven decisions! 🚀
+1 . Clone the repository to your local machine.
+
+2 .Set Up Your Environment:
+
+Ensure you have the necessary libraries installed. You can do this by running:
+
+```bash
+  pip install -r requirements.txt
+```
+
+3. Generate Visualizations:
+
+- Navigate to the Analysis/ folder.
+- Open the main.ipynb file in Jupyter Notebook.
+- Run the cells in the notebook to generate the visualizations based on the dataset.
+These visualizations will help illustrate key insights from the data, such as trends in food delivery pricing, restaurants distribution, and other market trends.
+
+## Summary of Findings
+Our analysis highlights that budget-friendly meals dominate across platforms, with Takeaway leading in variety. Wallonia shows limited coverage, presenting opportunities for expansion. Major cities like Brussels, Antwerp and Ghent have the highest concentration of top-rated pizza restaurants, with Deliveroo leading. "Kapsalon" outlets are most common in Brussels, Antwerp, and Gent, with Takeaway offering the lowest prices. Takeaway leads in restaurant coverage and deals, followed by Deliveroo and Uber Eats. These findings suggest opportunities to optimize pricing, service offerings, and platform coverage.
+
+## ⏱️ Timeline
+
+This project took five days for completion.
+
+## 📌 Contributors
+This project was done as part of the AI Boocamp at BeCode.org. 
+* Anastasiia Korostelova
+* Muntadher Abdulhusein 
+* Tom Van Belle
+* Veena Bhawani
