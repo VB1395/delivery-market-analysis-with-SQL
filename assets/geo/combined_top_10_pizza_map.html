@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d23e6509c82e13d22f20269b637e967f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d23e6509c82e13d22f20269b637e967f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d23e6509c82e13d22f20269b637e967f = L.map(
+                "map_d23e6509c82e13d22f20269b637e967f",
+                {
+                    center: [50.85, 4.35],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6d33681095efa20cec75dc38d065eb86 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6d33681095efa20cec75dc38d065eb86.addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var marker_0965afbd6fd4dffff381060ab23c190a = L.marker(
+                [50.9062595, 4.3079471],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_3ad11c7f1e5b19168fb67ae2d4e73dd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_0965afbd6fd4dffff381060ab23c190a.setIcon(icon_3ad11c7f1e5b19168fb67ae2d4e73dd1);
+        
+    
+        var popup_ac254789b1fd4609336f449e3207e23b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_8a6bd4e24b0c71182f323d2db88334b1 = $(`<div id="html_8a6bd4e24b0c71182f323d2db88334b1" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> UberEats<br>         <b>Restaurant:</b> Pizza Autentica<br>         <b>Rating:</b> 4.9<br>         </div>`)[0];
+                popup_ac254789b1fd4609336f449e3207e23b.setContent(html_8a6bd4e24b0c71182f323d2db88334b1);
+            
+        
+
+        marker_0965afbd6fd4dffff381060ab23c190a.bindPopup(popup_ac254789b1fd4609336f449e3207e23b)
+        ;
+
+        
+    
+    
+            marker_0965afbd6fd4dffff381060ab23c190a.bindTooltip(
+                `<div>
+                     Pizza Autentica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6f93e52da184317e7ddc9a23319ea09 = L.marker(
+                [50.85594, 4.40033],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_607210bed575268b2b5b07a8e3dff2c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_b6f93e52da184317e7ddc9a23319ea09.setIcon(icon_607210bed575268b2b5b07a8e3dff2c9);
+        
+    
+        var popup_e8ac21204f20f0fdb353d449cfdb106e = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_0aa6f2b21bac8f763749e7526bbe4872 = $(`<div id="html_0aa6f2b21bac8f763749e7526bbe4872" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> UberEats<br>         <b>Restaurant:</b> Fratello's<br>         <b>Rating:</b> 4.9<br>         </div>`)[0];
+                popup_e8ac21204f20f0fdb353d449cfdb106e.setContent(html_0aa6f2b21bac8f763749e7526bbe4872);
+            
+        
+
+        marker_b6f93e52da184317e7ddc9a23319ea09.bindPopup(popup_e8ac21204f20f0fdb353d449cfdb106e)
+        ;
+
+        
+    
+    
+            marker_b6f93e52da184317e7ddc9a23319ea09.bindTooltip(
+                `<div>
+                     Fratello's
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d636d57fff9fecf0b74170f6d2b59265 = L.marker(
+                [50.87608, 4.70754],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_e322caa20c318ae5ff26e9b3b14930ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_d636d57fff9fecf0b74170f6d2b59265.setIcon(icon_e322caa20c318ae5ff26e9b3b14930ea);
+        
+    
+        var popup_3dc6b8d83a99463c69890a7c2fc6c230 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_28a3afecfbc828f77a82facf10ccef4c = $(`<div id="html_28a3afecfbc828f77a82facf10ccef4c" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> UberEats<br>         <b>Restaurant:</b> American pizza<br>         <b>Rating:</b> 4.9<br>         </div>`)[0];
+                popup_3dc6b8d83a99463c69890a7c2fc6c230.setContent(html_28a3afecfbc828f77a82facf10ccef4c);
+            
+        
+
+        marker_d636d57fff9fecf0b74170f6d2b59265.bindPopup(popup_3dc6b8d83a99463c69890a7c2fc6c230)
+        ;
+
+        
+    
+    
+            marker_d636d57fff9fecf0b74170f6d2b59265.bindTooltip(
+                `<div>
+                     American pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12c2d84dee892d4fe2e8dccf2f9be344 = L.marker(
+                [51.22011, 4.40312],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_e12e0639f69915b0beae831f60398be5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_12c2d84dee892d4fe2e8dccf2f9be344.setIcon(icon_e12e0639f69915b0beae831f60398be5);
+        
+    
+        var popup_270da350bdaaadf2105ccd842d34763c = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6efd7bdd62a5c6c9dc77fbfcfb46a397 = $(`<div id="html_6efd7bdd62a5c6c9dc77fbfcfb46a397" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> UberEats<br>         <b>Restaurant:</b> Pizarro<br>         <b>Rating:</b> 4.8<br>         </div>`)[0];
+                popup_270da350bdaaadf2105ccd842d34763c.setContent(html_6efd7bdd62a5c6c9dc77fbfcfb46a397);
+            
+        
+
+        marker_12c2d84dee892d4fe2e8dccf2f9be344.bindPopup(popup_270da350bdaaadf2105ccd842d34763c)
+        ;
+
+        
+    
+    
+            marker_12c2d84dee892d4fe2e8dccf2f9be344.bindTooltip(
+                `<div>
+                     Pizarro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_926bc1c50ef96fd4aa5a73b97f9ca867 = L.marker(
+                [50.89477, 4.43319],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_15053f49490ed12636ef07db62a6d2b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_926bc1c50ef96fd4aa5a73b97f9ca867.setIcon(icon_15053f49490ed12636ef07db62a6d2b8);
+        
+    
+        var popup_94701330507ada5d9840a38b0e74cc6b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_76e7304747612aa8a0b46afbdf9a8491 = $(`<div id="html_76e7304747612aa8a0b46afbdf9a8491" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> UberEats<br>         <b>Restaurant:</b> Rosso Forno<br>         <b>Rating:</b> 4.8<br>         </div>`)[0];
+                popup_94701330507ada5d9840a38b0e74cc6b.setContent(html_76e7304747612aa8a0b46afbdf9a8491);
+            
+        
+
+        marker_926bc1c50ef96fd4aa5a73b97f9ca867.bindPopup(popup_94701330507ada5d9840a38b0e74cc6b)
+        ;
+
+        
+    
+    
+            marker_926bc1c50ef96fd4aa5a73b97f9ca867.bindTooltip(
+                `<div>
+                     Rosso Forno
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ecab59a5118aee86236ee6441682be6c = L.marker(
+                [51.2464, 4.44904],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_410c711cfc26fd71448d6700deeb38ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_ecab59a5118aee86236ee6441682be6c.setIcon(icon_410c711cfc26fd71448d6700deeb38ca);
+        
+    
+        var popup_30e4c3492bc556ac25a3a51c5152bc83 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_84eba2860dd40a42ab413240abb79c00 = $(`<div id="html_84eba2860dd40a42ab413240abb79c00" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> UberEats<br>         <b>Restaurant:</b> Detroit Square Pizza<br>         <b>Rating:</b> 4.8<br>         </div>`)[0];
+                popup_30e4c3492bc556ac25a3a51c5152bc83.setContent(html_84eba2860dd40a42ab413240abb79c00);
+            
+        
+
+        marker_ecab59a5118aee86236ee6441682be6c.bindPopup(popup_30e4c3492bc556ac25a3a51c5152bc83)
+        ;
+
+        
+    
+    
+            marker_ecab59a5118aee86236ee6441682be6c.bindTooltip(
+                `<div>
+                     Detroit Square Pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17c1070da17e66f19ac93789f90e079f = L.marker(
+                [50.7402458, 4.3375574],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_621ec20f0942c17f83be36c7e91bc278 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_17c1070da17e66f19ac93789f90e079f.setIcon(icon_621ec20f0942c17f83be36c7e91bc278);
+        
+    
+        var popup_a588a626bc88c716d9c680f72a9b6970 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_01f9eaf546083f15eb51384bc29e7ec3 = $(`<div id="html_01f9eaf546083f15eb51384bc29e7ec3" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> UberEats<br>         <b>Restaurant:</b> Pizzeria Gloria <br>         <b>Rating:</b> 4.7<br>         </div>`)[0];
+                popup_a588a626bc88c716d9c680f72a9b6970.setContent(html_01f9eaf546083f15eb51384bc29e7ec3);
+            
+        
+
+        marker_17c1070da17e66f19ac93789f90e079f.bindPopup(popup_a588a626bc88c716d9c680f72a9b6970)
+        ;
+
+        
+    
+    
+            marker_17c1070da17e66f19ac93789f90e079f.bindTooltip(
+                `<div>
+                     Pizzeria Gloria 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6a5ae14ba1c771a6113d357743e908a = L.marker(
+                [51.2070266, 4.4297784],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_df96941f255532bb4ceb4c66f5ff57d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_f6a5ae14ba1c771a6113d357743e908a.setIcon(icon_df96941f255532bb4ceb4c66f5ff57d0);
+        
+    
+        var popup_36239c4d75c41a33dfd18b671acf6939 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_a5a471b851484a687a5fcff113c68af7 = $(`<div id="html_a5a471b851484a687a5fcff113c68af7" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> UberEats<br>         <b>Restaurant:</b> Pita Amon<br>         <b>Rating:</b> 4.7<br>         </div>`)[0];
+                popup_36239c4d75c41a33dfd18b671acf6939.setContent(html_a5a471b851484a687a5fcff113c68af7);
+            
+        
+
+        marker_f6a5ae14ba1c771a6113d357743e908a.bindPopup(popup_36239c4d75c41a33dfd18b671acf6939)
+        ;
+
+        
+    
+    
+            marker_f6a5ae14ba1c771a6113d357743e908a.bindTooltip(
+                `<div>
+                     Pita Amon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4833809d4aa2c31d0dd4ba1044a52150 = L.marker(
+                [50.85548, 4.40126],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_cdebc74346d46e3cd30e3008c30d854a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_4833809d4aa2c31d0dd4ba1044a52150.setIcon(icon_cdebc74346d46e3cd30e3008c30d854a);
+        
+    
+        var popup_7295df855206e43597938c971c40234e = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_117dd34cde603acd0b7686532cb329c6 = $(`<div id="html_117dd34cde603acd0b7686532cb329c6" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> UberEats<br>         <b>Restaurant:</b> Great Market - Traiteur / Pizzas<br>         <b>Rating:</b> 4.7<br>         </div>`)[0];
+                popup_7295df855206e43597938c971c40234e.setContent(html_117dd34cde603acd0b7686532cb329c6);
+            
+        
+
+        marker_4833809d4aa2c31d0dd4ba1044a52150.bindPopup(popup_7295df855206e43597938c971c40234e)
+        ;
+
+        
+    
+    
+            marker_4833809d4aa2c31d0dd4ba1044a52150.bindTooltip(
+                `<div>
+                     Great Market - Traiteur / Pizzas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfff12c6859068ec62f0b9d86e655f02 = L.marker(
+                [51.22108, 4.40995],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_e1b8bad31352862a41c82575fc40547f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_cfff12c6859068ec62f0b9d86e655f02.setIcon(icon_e1b8bad31352862a41c82575fc40547f);
+        
+    
+        var popup_12c7f1fd687d30b626ab46a0eca0a906 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b2d8e720a2c3a0938d290c309b877a8a = $(`<div id="html_b2d8e720a2c3a0938d290c309b877a8a" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> UberEats<br>         <b>Restaurant:</b> Kalura<br>         <b>Rating:</b> 4.7<br>         </div>`)[0];
+                popup_12c7f1fd687d30b626ab46a0eca0a906.setContent(html_b2d8e720a2c3a0938d290c309b877a8a);
+            
+        
+
+        marker_cfff12c6859068ec62f0b9d86e655f02.bindPopup(popup_12c7f1fd687d30b626ab46a0eca0a906)
+        ;
+
+        
+    
+    
+            marker_cfff12c6859068ec62f0b9d86e655f02.bindTooltip(
+                `<div>
+                     Kalura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efda9e06b14ab64434b3d94979787549 = L.marker(
+                [51.0940817, 5.7923279],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_053496d6a5ffc54fdfa37cbcc053abec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_efda9e06b14ab64434b3d94979787549.setIcon(icon_053496d6a5ffc54fdfa37cbcc053abec);
+        
+    
+        var popup_8e86a51b51cef90eb18c4a2488babbf7 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9e643dffeec3adee63bbc3c0aeb30cc1 = $(`<div id="html_9e643dffeec3adee63bbc3c0aeb30cc1" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Takeaway<br>         <b>Restaurant:</b> Trend Kebab & Pizzeria<br>         <b>Rating:</b> 5.0<br>         </div>`)[0];
+                popup_8e86a51b51cef90eb18c4a2488babbf7.setContent(html_9e643dffeec3adee63bbc3c0aeb30cc1);
+            
+        
+
+        marker_efda9e06b14ab64434b3d94979787549.bindPopup(popup_8e86a51b51cef90eb18c4a2488babbf7)
+        ;
+
+        
+    
+    
+            marker_efda9e06b14ab64434b3d94979787549.bindTooltip(
+                `<div>
+                     Trend Kebab & Pizzeria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_150b3dc140bb2b51e781f0b1a80fff95 = L.marker(
+                [51.3253587, 4.9383671],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_5d3cbaaa8c82dcfed1676239a8530657 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_150b3dc140bb2b51e781f0b1a80fff95.setIcon(icon_5d3cbaaa8c82dcfed1676239a8530657);
+        
+    
+        var popup_dad16ac288146162f421e7f3c3a43b09 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_c9c77b08b0d63268ee73aa6547627d55 = $(`<div id="html_c9c77b08b0d63268ee73aa6547627d55" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Takeaway<br>         <b>Restaurant:</b> Snack-It<br>         <b>Rating:</b> 5.0<br>         </div>`)[0];
+                popup_dad16ac288146162f421e7f3c3a43b09.setContent(html_c9c77b08b0d63268ee73aa6547627d55);
+            
+        
+
+        marker_150b3dc140bb2b51e781f0b1a80fff95.bindPopup(popup_dad16ac288146162f421e7f3c3a43b09)
+        ;
+
+        
+    
+    
+            marker_150b3dc140bb2b51e781f0b1a80fff95.bindTooltip(
+                `<div>
+                     Snack-It
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_139435a8d5e97f2ab3a61c5d4c18819b = L.marker(
+                [50.8507025, 2.8851024],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_8e8453c9856f40a64144d721244540c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_139435a8d5e97f2ab3a61c5d4c18819b.setIcon(icon_8e8453c9856f40a64144d721244540c9);
+        
+    
+        var popup_aec838c1cc0de34aa4f64f1595e1eebe = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_2e9b17fc62e4df30e518ef7fec2cd779 = $(`<div id="html_2e9b17fc62e4df30e518ef7fec2cd779" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Takeaway<br>         <b>Restaurant:</b> Munchies Ieper<br>         <b>Rating:</b> 5.0<br>         </div>`)[0];
+                popup_aec838c1cc0de34aa4f64f1595e1eebe.setContent(html_2e9b17fc62e4df30e518ef7fec2cd779);
+            
+        
+
+        marker_139435a8d5e97f2ab3a61c5d4c18819b.bindPopup(popup_aec838c1cc0de34aa4f64f1595e1eebe)
+        ;
+
+        
+    
+    
+            marker_139435a8d5e97f2ab3a61c5d4c18819b.bindTooltip(
+                `<div>
+                     Munchies Ieper
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_836ce1dc56af3f75d035dec596639c54 = L.marker(
+                [50.8441446, 4.4204038],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_c37bab45d92be382b64805a3ac376f8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_836ce1dc56af3f75d035dec596639c54.setIcon(icon_c37bab45d92be382b64805a3ac376f8f);
+        
+    
+        var popup_642640b1819d075bae7b031919e593e0 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f951b091324ce66f62ce5d0332c2ecdb = $(`<div id="html_f951b091324ce66f62ce5d0332c2ecdb" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Takeaway<br>         <b>Restaurant:</b> La Trinacria Bottega<br>         <b>Rating:</b> 5.0<br>         </div>`)[0];
+                popup_642640b1819d075bae7b031919e593e0.setContent(html_f951b091324ce66f62ce5d0332c2ecdb);
+            
+        
+
+        marker_836ce1dc56af3f75d035dec596639c54.bindPopup(popup_642640b1819d075bae7b031919e593e0)
+        ;
+
+        
+    
+    
+            marker_836ce1dc56af3f75d035dec596639c54.bindTooltip(
+                `<div>
+                     La Trinacria Bottega
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ce32929ee8f1c655f26222415e87a27 = L.marker(
+                [51.0023083, 4.8359204],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_59a365bd88938e9a1c6cbbcd4ce5b185 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9ce32929ee8f1c655f26222415e87a27.setIcon(icon_59a365bd88938e9a1c6cbbcd4ce5b185);
+        
+    
+        var popup_fa667f1111e3a9728ab95203d23056f9 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_de09a541bd3670d543c19a297b986173 = $(`<div id="html_de09a541bd3670d543c19a297b986173" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Takeaway<br>         <b>Restaurant:</b> De Echte Eethuis Carlos<br>         <b>Rating:</b> 5.0<br>         </div>`)[0];
+                popup_fa667f1111e3a9728ab95203d23056f9.setContent(html_de09a541bd3670d543c19a297b986173);
+            
+        
+
+        marker_9ce32929ee8f1c655f26222415e87a27.bindPopup(popup_fa667f1111e3a9728ab95203d23056f9)
+        ;
+
+        
+    
+    
+            marker_9ce32929ee8f1c655f26222415e87a27.bindTooltip(
+                `<div>
+                     De Echte Eethuis Carlos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fa87f4fa4fd35c3f69ace8c71a7b0b2 = L.marker(
+                [51.0758523, 4.7251002],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_4a43a7466711b21ac0ee0e299ce926e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4fa87f4fa4fd35c3f69ace8c71a7b0b2.setIcon(icon_4a43a7466711b21ac0ee0e299ce926e1);
+        
+    
+        var popup_1ea04d015fd8d8be4ff7149950e67794 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_21964c8382d3c5a565671e77c0d7a45d = $(`<div id="html_21964c8382d3c5a565671e77c0d7a45d" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Takeaway<br>         <b>Restaurant:</b> The Black Horse<br>         <b>Rating:</b> 4.9<br>         </div>`)[0];
+                popup_1ea04d015fd8d8be4ff7149950e67794.setContent(html_21964c8382d3c5a565671e77c0d7a45d);
+            
+        
+
+        marker_4fa87f4fa4fd35c3f69ace8c71a7b0b2.bindPopup(popup_1ea04d015fd8d8be4ff7149950e67794)
+        ;
+
+        
+    
+    
+            marker_4fa87f4fa4fd35c3f69ace8c71a7b0b2.bindTooltip(
+                `<div>
+                     The Black Horse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e685995c127219e1197aff4a0e35ebe5 = L.marker(
+                [51.0933414, 4.0163172],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_582d7fcc3b7a7ee6479ef7e2217cb9ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e685995c127219e1197aff4a0e35ebe5.setIcon(icon_582d7fcc3b7a7ee6479ef7e2217cb9ac);
+        
+    
+        var popup_39a978639010e5f69b18ce3dbddf04b8 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7177abda9506feb8c6c532adf81d26b7 = $(`<div id="html_7177abda9506feb8c6c532adf81d26b7" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Takeaway<br>         <b>Restaurant:</b> Royal Donuts & Bagels<br>         <b>Rating:</b> 4.9<br>         </div>`)[0];
+                popup_39a978639010e5f69b18ce3dbddf04b8.setContent(html_7177abda9506feb8c6c532adf81d26b7);
+            
+        
+
+        marker_e685995c127219e1197aff4a0e35ebe5.bindPopup(popup_39a978639010e5f69b18ce3dbddf04b8)
+        ;
+
+        
+    
+    
+            marker_e685995c127219e1197aff4a0e35ebe5.bindTooltip(
+                `<div>
+                     Royal Donuts & Bagels
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb19ef4527b68c046b84b7f39e43e073 = L.marker(
+                [51.24612, 5.54582],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_037e67e0f6ab7d81d1b6d37cd7cf5a04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_fb19ef4527b68c046b84b7f39e43e073.setIcon(icon_037e67e0f6ab7d81d1b6d37cd7cf5a04);
+        
+    
+        var popup_f3eba0c251a43c50ace75797e2f961b0 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_0e0df2e0b883e54c65d4c4d28b8f6fa1 = $(`<div id="html_0e0df2e0b883e54c65d4c4d28b8f6fa1" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Takeaway<br>         <b>Restaurant:</b> Pyramide<br>         <b>Rating:</b> 4.9<br>         </div>`)[0];
+                popup_f3eba0c251a43c50ace75797e2f961b0.setContent(html_0e0df2e0b883e54c65d4c4d28b8f6fa1);
+            
+        
+
+        marker_fb19ef4527b68c046b84b7f39e43e073.bindPopup(popup_f3eba0c251a43c50ace75797e2f961b0)
+        ;
+
+        
+    
+    
+            marker_fb19ef4527b68c046b84b7f39e43e073.bindTooltip(
+                `<div>
+                     Pyramide
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a42af815228b7cfcd1fee9bce0aeaf60 = L.marker(
+                [51.0229785, 5.3137589],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_11bf49ae7413c7ba564683d8202c8e70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a42af815228b7cfcd1fee9bce0aeaf60.setIcon(icon_11bf49ae7413c7ba564683d8202c8e70);
+        
+    
+        var popup_63324c4a6457a3e9bee74978f61b0d31 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7fc82f48ec03c024e734835eeb4f2471 = $(`<div id="html_7fc82f48ec03c024e734835eeb4f2471" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Takeaway<br>         <b>Restaurant:</b> Plaza Snacks<br>         <b>Rating:</b> 4.9<br>         </div>`)[0];
+                popup_63324c4a6457a3e9bee74978f61b0d31.setContent(html_7fc82f48ec03c024e734835eeb4f2471);
+            
+        
+
+        marker_a42af815228b7cfcd1fee9bce0aeaf60.bindPopup(popup_63324c4a6457a3e9bee74978f61b0d31)
+        ;
+
+        
+    
+    
+            marker_a42af815228b7cfcd1fee9bce0aeaf60.bindTooltip(
+                `<div>
+                     Plaza Snacks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0748159d2308abc4ebc40166ad7c29c1 = L.marker(
+                [50.8104646, 4.3176421],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_c3914a3b854a481cc1788d1bfa87409b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0748159d2308abc4ebc40166ad7c29c1.setIcon(icon_c3914a3b854a481cc1788d1bfa87409b);
+        
+    
+        var popup_649472abda395bb15a8490f3534d735e = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f1fd68184058ff50ecf03c8161121eff = $(`<div id="html_f1fd68184058ff50ecf03c8161121eff" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Takeaway<br>         <b>Restaurant:</b> Pizzeria Zirar Saint-Denis<br>         <b>Rating:</b> 4.9<br>         </div>`)[0];
+                popup_649472abda395bb15a8490f3534d735e.setContent(html_f1fd68184058ff50ecf03c8161121eff);
+            
+        
+
+        marker_0748159d2308abc4ebc40166ad7c29c1.bindPopup(popup_649472abda395bb15a8490f3534d735e)
+        ;
+
+        
+    
+    
+            marker_0748159d2308abc4ebc40166ad7c29c1.bindTooltip(
+                `<div>
+                     Pizzeria Zirar Saint-Denis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5233faf9e8f6d2746edb525868b6db5 = L.marker(
+                [51.0454889, 3.7299747],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_35c97b60a8616c9fa4ff80c4eff02a3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_a5233faf9e8f6d2746edb525868b6db5.setIcon(icon_35c97b60a8616c9fa4ff80c4eff02a3c);
+        
+    
+        var popup_c911a4fef88a855ca8237683faf56cd7 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4606640aade13b13bc358102194f68e1 = $(`<div id="html_4606640aade13b13bc358102194f68e1" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Deliveroo<br>         <b>Restaurant:</b> De Superette<br>         <b>Rating:</b> 4.8<br>         </div>`)[0];
+                popup_c911a4fef88a855ca8237683faf56cd7.setContent(html_4606640aade13b13bc358102194f68e1);
+            
+        
+
+        marker_a5233faf9e8f6d2746edb525868b6db5.bindPopup(popup_c911a4fef88a855ca8237683faf56cd7)
+        ;
+
+        
+    
+    
+            marker_a5233faf9e8f6d2746edb525868b6db5.bindTooltip(
+                `<div>
+                     De Superette
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_052ecdffdee69e21ff86c5c94b0d381b = L.marker(
+                [51.1899486, 4.3778715],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_f4539dd53a95f484d8a49ed81f114b86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_052ecdffdee69e21ff86c5c94b0d381b.setIcon(icon_f4539dd53a95f484d8a49ed81f114b86);
+        
+    
+        var popup_96383a35ca2f1bfb9ad2ca32180ae7e5 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_17d7858d3c422e642f771630b05ba64a = $(`<div id="html_17d7858d3c422e642f771630b05ba64a" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Deliveroo<br>         <b>Restaurant:</b> ÖZ AHI<br>         <b>Rating:</b> 4.8<br>         </div>`)[0];
+                popup_96383a35ca2f1bfb9ad2ca32180ae7e5.setContent(html_17d7858d3c422e642f771630b05ba64a);
+            
+        
+
+        marker_052ecdffdee69e21ff86c5c94b0d381b.bindPopup(popup_96383a35ca2f1bfb9ad2ca32180ae7e5)
+        ;
+
+        
+    
+    
+            marker_052ecdffdee69e21ff86c5c94b0d381b.bindTooltip(
+                `<div>
+                     ÖZ AHI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54de254439d90f324d486f16a7d99222 = L.marker(
+                [51.2096443, 3.2266609],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_5b197803e1b59cba270fbd098f95e953 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_54de254439d90f324d486f16a7d99222.setIcon(icon_5b197803e1b59cba270fbd098f95e953);
+        
+    
+        var popup_e4ad9aee602e28cca10f45c235d252c7 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_5048acefa73c6bb78772377349b15058 = $(`<div id="html_5048acefa73c6bb78772377349b15058" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Deliveroo<br>         <b>Restaurant:</b> Trattoria Murano<br>         <b>Rating:</b> 4.8<br>         </div>`)[0];
+                popup_e4ad9aee602e28cca10f45c235d252c7.setContent(html_5048acefa73c6bb78772377349b15058);
+            
+        
+
+        marker_54de254439d90f324d486f16a7d99222.bindPopup(popup_e4ad9aee602e28cca10f45c235d252c7)
+        ;
+
+        
+    
+    
+            marker_54de254439d90f324d486f16a7d99222.bindTooltip(
+                `<div>
+                     Trattoria Murano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be32ea9fce2939c69c8f5a8c22a4c619 = L.marker(
+                [50.9483796, 3.1296242],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_46ce25b0631ffe5fe9246310679bb9d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_be32ea9fce2939c69c8f5a8c22a4c619.setIcon(icon_46ce25b0631ffe5fe9246310679bb9d8);
+        
+    
+        var popup_71ce347acf22cc694cff809f62b571ef = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_fd5bdec416bba151bc26fb8ed78b4add = $(`<div id="html_fd5bdec416bba151bc26fb8ed78b4add" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Deliveroo<br>         <b>Restaurant:</b> Place 2 Eat<br>         <b>Rating:</b> 4.7<br>         </div>`)[0];
+                popup_71ce347acf22cc694cff809f62b571ef.setContent(html_fd5bdec416bba151bc26fb8ed78b4add);
+            
+        
+
+        marker_be32ea9fce2939c69c8f5a8c22a4c619.bindPopup(popup_71ce347acf22cc694cff809f62b571ef)
+        ;
+
+        
+    
+    
+            marker_be32ea9fce2939c69c8f5a8c22a4c619.bindTooltip(
+                `<div>
+                     Place 2 Eat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70506108688231e641ed4b3d31410fb5 = L.marker(
+                [50.9025108, 4.3614917],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_978337b6207ce01884982625daab54bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_70506108688231e641ed4b3d31410fb5.setIcon(icon_978337b6207ce01884982625daab54bd);
+        
+    
+        var popup_103bac32b432ee138aa983a10d2e376b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_8f124c1d68ba92693cdb53c7c53a2f74 = $(`<div id="html_8f124c1d68ba92693cdb53c7c53a2f74" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Deliveroo<br>         <b>Restaurant:</b> Pizza Hut Strombeek-Bever<br>         <b>Rating:</b> 4.6<br>         </div>`)[0];
+                popup_103bac32b432ee138aa983a10d2e376b.setContent(html_8f124c1d68ba92693cdb53c7c53a2f74);
+            
+        
+
+        marker_70506108688231e641ed4b3d31410fb5.bindPopup(popup_103bac32b432ee138aa983a10d2e376b)
+        ;
+
+        
+    
+    
+            marker_70506108688231e641ed4b3d31410fb5.bindTooltip(
+                `<div>
+                     Pizza Hut Strombeek-Bever
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7402cc33b3a3f499f0defc365c408cc6 = L.marker(
+                [50.8408117, 4.4636603],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_c1235281f5bf06e32991d127ae4d5910 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_7402cc33b3a3f499f0defc365c408cc6.setIcon(icon_c1235281f5bf06e32991d127ae4d5910);
+        
+    
+        var popup_0e4ae78cc6f17937c0345ccdc96de505 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b21584970669f9db246a08dd177ab461 = $(`<div id="html_b21584970669f9db246a08dd177ab461" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Deliveroo<br>         <b>Restaurant:</b> La Barchetta<br>         <b>Rating:</b> 4.6<br>         </div>`)[0];
+                popup_0e4ae78cc6f17937c0345ccdc96de505.setContent(html_b21584970669f9db246a08dd177ab461);
+            
+        
+
+        marker_7402cc33b3a3f499f0defc365c408cc6.bindPopup(popup_0e4ae78cc6f17937c0345ccdc96de505)
+        ;
+
+        
+    
+    
+            marker_7402cc33b3a3f499f0defc365c408cc6.bindTooltip(
+                `<div>
+                     La Barchetta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8de48532e274f96422284f9745478fbe = L.marker(
+                [50.9480685, 3.122127],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_3c4a929e1ba551b59829a0bf1c219a4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_8de48532e274f96422284f9745478fbe.setIcon(icon_3c4a929e1ba551b59829a0bf1c219a4e);
+        
+    
+        var popup_6c7a97151bd2339f85ad6e864f13fd8b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7553b26910f473e87a8051c63c861e77 = $(`<div id="html_7553b26910f473e87a8051c63c861e77" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Deliveroo<br>         <b>Restaurant:</b> Pretzel King<br>         <b>Rating:</b> 4.6<br>         </div>`)[0];
+                popup_6c7a97151bd2339f85ad6e864f13fd8b.setContent(html_7553b26910f473e87a8051c63c861e77);
+            
+        
+
+        marker_8de48532e274f96422284f9745478fbe.bindPopup(popup_6c7a97151bd2339f85ad6e864f13fd8b)
+        ;
+
+        
+    
+    
+            marker_8de48532e274f96422284f9745478fbe.bindTooltip(
+                `<div>
+                     Pretzel King
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea8ae5587368a3676a60e660bcfbe0dc = L.marker(
+                [51.2065906, 4.4040435],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_79588c9b3c8f92d9f6f7b5395e1fd0bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_ea8ae5587368a3676a60e660bcfbe0dc.setIcon(icon_79588c9b3c8f92d9f6f7b5395e1fd0bf);
+        
+    
+        var popup_742c7ef8fbdcf5c9a5007a995f2f4d43 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_cea9f23658657169ca684bc7f91c1690 = $(`<div id="html_cea9f23658657169ca684bc7f91c1690" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Deliveroo<br>         <b>Restaurant:</b> Keurslager Michielsen<br>         <b>Rating:</b> 4.6<br>         </div>`)[0];
+                popup_742c7ef8fbdcf5c9a5007a995f2f4d43.setContent(html_cea9f23658657169ca684bc7f91c1690);
+            
+        
+
+        marker_ea8ae5587368a3676a60e660bcfbe0dc.bindPopup(popup_742c7ef8fbdcf5c9a5007a995f2f4d43)
+        ;
+
+        
+    
+    
+            marker_ea8ae5587368a3676a60e660bcfbe0dc.bindTooltip(
+                `<div>
+                     Keurslager Michielsen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66cdf015cdf8b55964530068936a52e9 = L.marker(
+                [50.7145089, 4.3989591],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_900521d8e7cd5ef384325fbfa859b8d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_66cdf015cdf8b55964530068936a52e9.setIcon(icon_900521d8e7cd5ef384325fbfa859b8d1);
+        
+    
+        var popup_14101843ae164e040cb7dc70fda06118 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b5cb28a3c00671426b9d873f4706ef14 = $(`<div id="html_b5cb28a3c00671426b9d873f4706ef14" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Deliveroo<br>         <b>Restaurant:</b> Strombolino<br>         <b>Rating:</b> 4.6<br>         </div>`)[0];
+                popup_14101843ae164e040cb7dc70fda06118.setContent(html_b5cb28a3c00671426b9d873f4706ef14);
+            
+        
+
+        marker_66cdf015cdf8b55964530068936a52e9.bindPopup(popup_14101843ae164e040cb7dc70fda06118)
+        ;
+
+        
+    
+    
+            marker_66cdf015cdf8b55964530068936a52e9.bindTooltip(
+                `<div>
+                     Strombolino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a4de050de584e1c63bdedd87273c653 = L.marker(
+                [51.0567144, 3.7195119],
+                {}
+            ).addTo(map_d23e6509c82e13d22f20269b637e967f);
+        
+    
+            var icon_b28da66e188168443d1acd82935bdd53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_3a4de050de584e1c63bdedd87273c653.setIcon(icon_b28da66e188168443d1acd82935bdd53);
+        
+    
+        var popup_a47419d6723fbfc2280cbe929d2d1287 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_d2f05cff68b7f43c8ed3f6f535024507 = $(`<div id="html_d2f05cff68b7f43c8ed3f6f535024507" style="width: 100.0%; height: 100.0%;">         <b>Platform:</b> Deliveroo<br>         <b>Restaurant:</b> Epiphany's kitchen<br>         <b>Rating:</b> 4.6<br>         </div>`)[0];
+                popup_a47419d6723fbfc2280cbe929d2d1287.setContent(html_d2f05cff68b7f43c8ed3f6f535024507);
+            
+        
+
+        marker_3a4de050de584e1c63bdedd87273c653.bindPopup(popup_a47419d6723fbfc2280cbe929d2d1287)
+        ;
+
+        
+    
+    
+            marker_3a4de050de584e1c63bdedd87273c653.bindTooltip(
+                `<div>
+                     Epiphany's kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

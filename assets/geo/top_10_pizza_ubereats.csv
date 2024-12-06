@@ -1,0 +1,11 @@
+id,restaurant_name,category,rating,address,latitude,longitude,Star Rating
+b0bc113f-86e9-41ed-95e1-7e8d4957ac9f,Pizza Autentica,Pizzas,4.9,"De Limburg Stirumlaan 2, Wemmel, Vlaanderen 1780",50.9062595,4.3079471,★★★★☆
+5a603fd8-4bfa-44e7-a4ad-47063893957f,Fratello's,Pizzas,4.9,"Rue Des Compagnons 12, Rez De ChaussÃ©, Bruxelles, RÃ©gion de Bruxelles-Capitale 1030",50.85594,4.40033,★★★★☆
+17478ff5-ba5d-5166-ba01-48d1f97cb588,American pizza,Pizza,4.9,"Tiensestraat, Number 107, Leuven, Vlaanderen 3000",50.87608,4.70754,★★★★☆
+62e69218-c421-4e02-afc0-42eb6d46c96e,Pizarro,Pizza,4.8,"Melkmarkt 25 , Antwerpen, Vlaams Gewest 2000",51.22011,4.40312,★★★★☆
+40949220-4ff1-4b5e-b998-1b8c7a1b242d,Rosso Forno,Pizzas,4.8,"Oude Haachtsesteenweg 83, Machelen, EMEA 1831",50.89477,4.43319,★★★★☆
+34e6c686-be87-5a39-9cc4-911542385ffd,Detroit Square Pizza,Pizza,4.8,"Bredabaan 588, Antwerpen, Vlaams Gewest 2170",51.2464,4.44904,★★★★☆
+d5dde7ec-a7fc-4472-997a-3eed6864e789,Pizzeria Gloria ,Pizzas,4.7,"Hallesesteenweg 8, Alsemberg, Vlaanderen 1652",50.7402458,4.3375574,★★★★☆
+bdc6049d-422b-49d7-9ff9-1b3d75c3ce63,Pita Amon,Pizza,4.7,"Dageraadplaats 27, 2018",51.2070266,4.4297784,★★★★☆
+a43c868b-c420-50ec-b6c2-e481ab18314e,Great Market - Traiteur / Pizzas,Pizzas,4.7,"ChaussÃ©e De Louvain 650, Schaerbeek, Bruxelles 1030",50.85548,4.40126,★★★★☆
+8f86d439-f1f0-470b-bc06-e4e5e7eb09d2,Kalura,Pizza,4.7,"Prinsesstraat 38, Antwerpen, Vlaanderen 2000",51.22108,4.40995,★★★★☆
