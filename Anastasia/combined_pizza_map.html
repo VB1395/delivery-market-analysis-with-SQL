@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_705a3c30a2b78bfa0315ab52f700e954 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_705a3c30a2b78bfa0315ab52f700e954" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_705a3c30a2b78bfa0315ab52f700e954 = L.map(
+                "map_705a3c30a2b78bfa0315ab52f700e954",
+                {
+                    center: [50.85, 4.35],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_012fd137907724920aa242d3bc839935 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_012fd137907724920aa242d3bc839935.addTo(map_705a3c30a2b78bfa0315ab52f700e954);
+        
+    
+            var marker_fd9be596cc7f989497862f31a8983566 = L.marker(
+                [50.8503, 4.3517],
+                {}
+            ).addTo(map_705a3c30a2b78bfa0315ab52f700e954);
+        
+    
+            var icon_7b941fa9b34972e1dd6f6216356c0c16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fd9be596cc7f989497862f31a8983566.setIcon(icon_7b941fa9b34972e1dd6f6216356c0c16);
+        
+    
+        var popup_c0d222a3200ce7a20c0da22fd3b0a579 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58030324142670fc7c429a6306d8a760 = $(`<div id="html_58030324142670fc7c429a6306d8a760" style="width: 100.0%; height: 100.0%;">Trend Kebab & Pizzeria (5.0★)</div>`)[0];
+                popup_c0d222a3200ce7a20c0da22fd3b0a579.setContent(html_58030324142670fc7c429a6306d8a760);
+            
+        
+
+        marker_fd9be596cc7f989497862f31a8983566.bindPopup(popup_c0d222a3200ce7a20c0da22fd3b0a579)
+        ;
+
+        
+    
+    
+            var marker_206a0e93d09f2eaf3918f00a9024d4bb = L.marker(
+                [51.0538, 3.725],
+                {}
+            ).addTo(map_705a3c30a2b78bfa0315ab52f700e954);
+        
+    
+            var icon_ce926386c760b23a7edcb02dda8ab35f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_206a0e93d09f2eaf3918f00a9024d4bb.setIcon(icon_ce926386c760b23a7edcb02dda8ab35f);
+        
+    
+        var popup_e69891ba05aacb5149f17d0252c67f36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c982f7cef965a9cbb6f7d545be1409b7 = $(`<div id="html_c982f7cef965a9cbb6f7d545be1409b7" style="width: 100.0%; height: 100.0%;">De Superette (4.8★)</div>`)[0];
+                popup_e69891ba05aacb5149f17d0252c67f36.setContent(html_c982f7cef965a9cbb6f7d545be1409b7);
+            
+        
+
+        marker_206a0e93d09f2eaf3918f00a9024d4bb.bindPopup(popup_e69891ba05aacb5149f17d0252c67f36)
+        ;
+
+        
+    
+    
+            var marker_c775f640d5abf773e816cab6d3059793 = L.marker(
+                [50.875, 4.456],
+                {}
+            ).addTo(map_705a3c30a2b78bfa0315ab52f700e954);
+        
+    
+            var icon_87b27defae701b7ae52a668d6e90d074 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c775f640d5abf773e816cab6d3059793.setIcon(icon_87b27defae701b7ae52a668d6e90d074);
+        
+    
+        var popup_97502bf24d01349cf26b9289cfd3878f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2499157a73bb0a6f605ff94b5f07dc0f = $(`<div id="html_2499157a73bb0a6f605ff94b5f07dc0f" style="width: 100.0%; height: 100.0%;">Pizza Autentica (4.9★)</div>`)[0];
+                popup_97502bf24d01349cf26b9289cfd3878f.setContent(html_2499157a73bb0a6f605ff94b5f07dc0f);
+            
+        
+
+        marker_c775f640d5abf773e816cab6d3059793.bindPopup(popup_97502bf24d01349cf26b9289cfd3878f)
+        ;
+
+        
+    
+</script>
+</html>
