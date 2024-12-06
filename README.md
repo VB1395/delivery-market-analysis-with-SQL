@@ -48,7 +48,7 @@ These visualizations will help illustrate key insights from the data, such as tr
 
 ## Summary of Findings
 Our analysis highlights that budget-friendly meals dominate across platforms, with Takeaway leading in variety. Wallonia shows limited coverage, presenting opportunities for expansion. Major cities like Brussels, Antwerp and Ghent have the highest concentration of top-rated pizza restaurants, with Deliveroo leading. "Kapsalon" outlets are most common in Brussels, Antwerp, and Gent, with Takeaway offering the lowest prices. Takeaway leads in restaurant coverage and deals, followed by Deliveroo and Uber Eats. These findings suggest opportunities to optimize pricing, service offerings, and platform coverage.
-
+You can check our findings in `assets/pdf/delivery-market-analysis-with-SQL.pdf`.
 ## ⏱️ Timeline
 
 This project took five days for completion.
